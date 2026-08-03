@@ -5,14 +5,14 @@ This repo contains the PowerShell and Bash scripts created for the IT 100 Labs.
 These bash scripts contain:
 
 ## sysinfo.sh This can help display system information including:
--Hostname
--Ip address
--CPU information
--OS version 
--Kernel version
--Uptime
--disk usage
--Memory
+- Hostname
+- Ip address
+- CPU information
+- OS version 
+- Kernel version
+- Uptime
+- disk usage
+- Memory
 
 ## Ollama_Check.sh
 -Displays information on whether the Ollama service is running or not. 
@@ -21,10 +21,10 @@ These bash scripts contain:
 -Displays last failed SSH login attempts.
 
 ## Ollama_Health_Check: Performs a health check by verifying and checks status of HEALTH, WARNING, CRITICAL.
--The Service status
--API response 
--Installed models
--Disk usage 
--Recent Journal Errors
+- The Service status
+- API response 
+- Installed models
+- Disk usage 
+- Recent Journal Errors
 
 
