@@ -15,10 +15,10 @@ These bash scripts contain:
 - Memory
 
 ## Ollama_Check.sh
--Displays information on whether the Ollama service is running or not. 
--Verifies the bind address of the Ollama service
--Checks the models storage usage
--Displays last failed SSH login attempts.
+- Displays information on whether the Ollama service is running or not. 
+- Verifies the bind address of the Ollama service
+- Checks the models storage usage
+- Displays last failed SSH login attempts.
 
 ## Ollama_Health_Check: Performs a health check by verifying and checks status of HEALTH, WARNING, CRITICAL.
 - The Service status
@@ -27,4 +27,10 @@ These bash scripts contain:
 - Disk usage 
 - Recent Journal Errors
 
+## user_audit: 
+- Lists users with login shells
+- Checks for sudo rights
+- Flags UID 0 accounts
+- Displays audit results in a readable format
+- Helps identify potential user account security issues
 
